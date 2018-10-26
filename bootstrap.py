@@ -9,4 +9,4 @@ if __name__ == "__main__":
     server = server.Server(LEVEL)
     # server.active_rpc("rpc_host", 5672, "/", "username", "passwd")
     server.gen_http_process(8080,1,Analysis(CUR_VERSION))
-    server.start(True)
+    server.start(False)

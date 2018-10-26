@@ -7,6 +7,7 @@ from utils import log
 import logging
 from rpc import RpcManager
 import datetime
+from daemon import daemon
 
 
 DEBUG = logging.DEBUG
