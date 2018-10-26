@@ -15,6 +15,9 @@ pip install tornado
 pip install gevent
 pip install pika
 
+pip install pymongo
+pip install redis
+
 git clone https://github.com/guaik/GuaikNet.git
 cd ./GuaikNet
 chmod +x ./start.sh
